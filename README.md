@@ -9,7 +9,7 @@
 </h1>
 
 <p align="center">
-  <a href="[https://www.linkedin.com/in/你的ID](https://www.linkedin.com/in/yingzhu-chen-135594382/)" target="_blank">
+  <a href="https://www.linkedin.com/in/yingzhu-chen-135594382/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="35"/>
   </a>
   <a href="mailto:chenkaylee27@gmail.com">
@@ -27,13 +27,11 @@ class UserProfile {
     String location = "Gainesville, FL, USA";
     String role = "Backend Developer / Java Engineer";
     
-    // 教育背景
     String[] education = {
         "Master's in Computer Science",
         "Bachelor's in Software Engineering"
     };
 
-    // 技术兴趣
     String[] interests = {
         "Java Development",
         "System Design",
@@ -43,10 +41,17 @@ class UserProfile {
         "Python",
         "Computer Version"
     };
+
+    String[] experiencedIn = {
+        "Backend & Frontend Development",
+        "AWS Cloud Services",
+        "CI/CD Pipelines",
+        "Docker & Containerization"
+    };
+
+    String learningFocus = "Exploring AI & Computer Vision domains";
     
-    // 当前目标
-    String currentGoal = "Pursuing a Master degree";
+    String currentGoal = "Pursuing a Master's degree, enjoying the present, and finding my true passion";
     
-    // 爱好
-    String[] hobbies = {"Golf", "Reading Novel", "Tech Blogging", "Go to Gym"};
+    String[] hobbies = {"Golf", "Reading Novels", "Tech Blogging", "Gym"};
 }
